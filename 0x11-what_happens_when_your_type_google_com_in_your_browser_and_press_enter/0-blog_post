@@ -1,0 +1,41 @@
+Title: The Journey of a URL: Understanding What Happens When You Type https://www.google.com in Your Browser
+
+Introduction
+
+Have you ever wondered what happens behind the scenes when you type a URL like https://www.google.com into your web browser and press Enter? The process may seem instantaneous, but a fascinating journey takes place, involving multiple components that work together to deliver the desired web page to your screen. In this blog post, we'll take a closer look at each step of this journey and unravel the magic that connects you to the vast digital realm.
+
+1. DNS Request
+
+The journey begins with the Domain Name System (DNS). When you enter "https://www.google.com" into your browser, it first needs to translate this human-readable domain name (google.com) into an IP address that computers can understand. Your browser initiates a DNS request to a DNS server, either provided by your ISP or a public DNS server like Google's (8.8.8.8).
+
+2. TCP/IP
+
+Once the DNS server returns the IP address of "www.google.com," the browser uses the Transmission Control Protocol (TCP) to establish a connection with the server. TCP guarantees reliable and ordered data delivery, ensuring that the data packets reach their destination without errors.
+
+3. Firewall
+
+At this point, the connection request may encounter a firewall. Firewalls act as a security barrier between your computer and the internet, monitoring and controlling incoming and outgoing network traffic. If the firewall deems the request safe, it allows the connection to proceed.
+
+4. HTTPS/SSL
+
+When connecting to secure websites (those with "https://" in the URL), an additional layer of security is employed. This is where the magic of HTTPS and SSL (Secure Sockets Layer) comes into play. The browser and the server engage in a process called the SSL handshake, which establishes an encrypted connection between them. This encryption ensures that any data transmitted between your browser and the server remains private and secure, safeguarding against potential eavesdropping and tampering.
+
+5. Load Balancer
+
+To handle the immense traffic that popular websites like Google receive, they utilize load balancers. Load balancers distribute incoming requests across multiple servers, ensuring optimal resource utilization and preventing any single server from being overwhelmed. This improves website performance and availability.
+
+6. Web Server
+
+Once the load balancer forwards the request, it reaches a web server. The web server's primary role is to handle HTTP requests, process them, and generate HTML or other content to send back to the user's browser. In Google's case, their web server software (e.g., Apache, Nginx) processes the request for the homepage and sends back the appropriate HTML.
+
+7. Application Server
+
+In the case of more complex websites and web applications, the web server may pass certain requests to an application server. The application server performs specific tasks, such as processing dynamic content, database queries, and other application-related functions. However, for a simple search page like Google's homepage, this step may not be necessary.
+
+8. Database
+
+Behind the scenes, Google relies on databases to store and manage vast amounts of information. When you perform a search, the web or application server might interact with a database to fetch the search results. The database server responds with the relevant data, which is then processed by the application server (if applicable) before being sent back to your browser.
+
+Conclusion
+
+The seemingly simple act of typing "https://www.google.com" into your browser initiates a complex and fascinating process involving DNS requests, TCP/IP connections, firewalls, HTTPS/SSL encryption, load balancers, web servers, application servers, and databases. This intricate dance between various components allows you to access the vast wealth of information available on the internet. Understanding this journey helps us appreciate the engineering marvel that makes our digital lives possible and reminds us of the vast interconnectedness of the web. So, the next time you search on Google or visit any other website, take a moment to reflect on the behind-the-scenes magic that brings the web to your fingertips.
