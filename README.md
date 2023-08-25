@@ -8,3 +8,4 @@
 7. 0x06-regular_expressions
 8. 0x07-networking_basics
 9. 0x08-networking_basics_2
+10. 0x09-web_infrastructure_design
