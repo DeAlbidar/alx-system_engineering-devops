@@ -7,3 +7,4 @@
 6. 0x05-processes_and_signals
 7. 0x06-regular_expressions
 8. 0x07-networking_basics
+9. 0x08-networking_basics_2
