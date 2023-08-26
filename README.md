@@ -9,3 +9,4 @@
 8. 0x07-networking_basics
 9. 0x08-networking_basics_2
 10. 0x09-web_infrastructure_design
+11. 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter
