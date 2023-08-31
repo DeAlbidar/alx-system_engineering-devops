@@ -18,3 +18,4 @@
 17. 0x14-mysql
 18. 0x15-api
 19. 0x16-api_advanced
+20. 0x17-web_stack_debugging_3
