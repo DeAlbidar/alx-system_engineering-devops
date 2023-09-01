@@ -19,3 +19,4 @@
 18. 0x15-api
 19. 0x16-api_advanced
 20. 0x17-web_stack_debugging_3
+21. 0x18-webstack_monitoring
